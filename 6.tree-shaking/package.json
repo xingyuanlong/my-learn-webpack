@@ -1,0 +1,20 @@
+{
+  "name": "my-learn-webpack",
+  "version": "1.0.0",
+  "description": "tree-shaking",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.44.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.0.9"
+  },
+  "sideEffects": false
+}

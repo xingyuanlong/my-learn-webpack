@@ -1,0 +1,20 @@
+{
+  "name": "my-learn-webpack",
+  "version": "1.0.0",
+  "description": "1.起步",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imports-loader": "^1.1.0",
+    "lodash": "^4.17.19",
+    "webpack": "^4.44.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
